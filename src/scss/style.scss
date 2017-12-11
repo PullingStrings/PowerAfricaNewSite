@@ -1,0 +1,57 @@
+
+main {
+  height: 100vh;
+  background-color: orange;
+}
+
+.navbar-nav {
+  float: right;
+  height: 50px;
+  padding: 21px 15px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+nav {
+  background-color: white;
+  margin: 4px;
+  padding: 4px;
+  width: auto;
+    a {
+      margin: 8px;
+      padding: 8px;
+      color: black;
+    }
+}
+
+.homePage {
+   position: relative;
+   width: 100%;
+    img {
+      width: inherit;
+      height: 70vh;
+    }
+    h2 {
+       position: absolute;
+       top: 70%;
+       left: 0;
+       width: 100%;
+    }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f5f5f5;
+  border: 1px solid black;
+  width: 100%;
+
+}
+.footer {
+  align-content: center;
+  p {
+    align-items: center;
+  }
+}
