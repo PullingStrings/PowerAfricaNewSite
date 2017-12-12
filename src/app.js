@@ -33,7 +33,7 @@ class App extends React.Component {
           </main>
           <footer>
             <div className="container">
-              <p>Tito</p>
+              <p>Visit us at care.ca</p>
             </div>
           </footer>
         </div>

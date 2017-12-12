@@ -1,3 +1,5 @@
+@import url('https://cssmapsplugin.com/5/jquery.cssmap.min.js');
+
 
 main {
   height: 100vh;
@@ -35,8 +37,15 @@ nav {
        position: absolute;
        top: 70%;
        left: 0;
-       width: 100%;
+       width: 50%;
+       color: white;
+       background-color: rgba(0, 0, 0, 0.37);
+       border-radius: 3px;
     }
+}
+
+.homePageText {
+
 }
 
 footer {
@@ -45,9 +54,8 @@ footer {
   height: 60px;
   line-height: 60px;
   background-color: #f5f5f5;
-  border: 1px solid black;
   width: 100%;
-
+  text-align: center;
 }
 .footer {
   align-content: center;
