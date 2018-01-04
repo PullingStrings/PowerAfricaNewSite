@@ -20,7 +20,7 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <div>
-          <main className="container">
+          <main>
             <Navbar />
             <Switch>
               <Route exact path="/" component={Home}/>
@@ -32,9 +32,7 @@ class App extends React.Component {
             </Switch>
           </main>
           <footer>
-            <div className="container">
-              <p>Visit us at care.ca</p>
-            </div>
+            <p>Visit us at care.ca</p>
           </footer>
         </div>
       </BrowserRouter>
